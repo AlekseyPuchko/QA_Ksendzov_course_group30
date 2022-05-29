@@ -1,1 +1,1 @@
-# group_30_git
+# QA_Ksendzov_course_group30_git
