@@ -1,1 +1,12 @@
 
+{
+  "Summary": "Web UI is not accessible after after changing configuration",
+  "Severity": "Critical",
+  "Priority": "Highest",
+  "Affects Version/s": "1.2.0-rc1",
+  "Environment": "Ubuntu 20.04 (Physical), Ubuntu 21.10 (VM)",
+  "Description": "After changing configuration app's Web UI becomes not accessible. Please see logs in attachments",
+  "Steps to reproduce": "Open app, change configuration, press 'Apply' button. Then check app via Web UI",
+  "Actual result": "The UI is not accessible",
+  "Expected result": "It is possible to access the UI"
+}
