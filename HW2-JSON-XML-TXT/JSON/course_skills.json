@@ -1,0 +1,19 @@
+{
+"skills": [
+	{"id":0, "skill_name":"http/https"},
+        {"id":1, "skill_name":"JSON, XML"},
+	{"id":2, "skill_name":"POSTMAN"},
+	{"id":3, "skill_name":"Web traffic Sniffers: Charles, Fiddler"},
+	{"id":4, "skill_name":"Dev tools (Chrome, Firefox)"},
+	{"id":5, "skill_name":"VPN, Proxy"},
+	{"id":6, "skill_name":"Mobile testing (ios, android, guidelines)"},
+	{"id":7, "skill_name":"Building an application (XCode, Android Studio)"},
+	{"id":8, "skill_name":"Bash, terminal Linux/Mac OS"},
+	{"id":9, "skill_name":"QA Automation"},
+	{"id":10, "skill_name":"SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)"},
+	{"id":11, "skill_name":"Postgres DB, Redis DB"},
+	{"id":12, "skill_name":"Load teting with Jmeter"},
+        {"id":13, "skill_name":"Scrum/Kanban"},
+	{"id":14, "skill_name":"Python Basics"}
+]
+}
