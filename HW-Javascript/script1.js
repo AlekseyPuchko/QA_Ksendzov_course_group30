@@ -23,12 +23,12 @@ let item_6_type = typeof (item_6)
 console.log("item_6 == ", item_6, "item_6_type == ", item_6_type)
 
 // Tasks 22-25
-let item_7 = String(item_6) // не уверена в правильности действия, т.к. при проверке в консоль логе на сложении значение было верное для сложения строки с числом, а при умножении - будто умножала числа
+let item_7 = String(item_6) 
 let item_7_type = typeof (item_7)
 console.log("item_7 == ", item_7, "item_7_type == ", item_7_type)
 
 // Tasks 26-28
-let age_1 = 10 // выбирала значения для проверки 19, 61
+let age_1 = 10 
 let age_2 = 18
 let age_3 = 60
 
