@@ -13,6 +13,7 @@ function checkAge(age_1, age_2, age_3) {
             console.log("Keep calm and watch Culture channel")
         }
     }
+    return age_1
 }
 console.log("-----------Check additional task #1-----------")
 checkAge(17, 18, 61)
