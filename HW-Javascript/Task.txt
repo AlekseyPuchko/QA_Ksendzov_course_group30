@@ -34,7 +34,7 @@ For 1-33 please see script1.js
  32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
  33. Иначе выводите “Technical work”.
 
-Additional task*:
+Additional task*: (for additional task see script2.js, script3.js, index.html files)
 
 Задания с разным количеством звездочек:
 
