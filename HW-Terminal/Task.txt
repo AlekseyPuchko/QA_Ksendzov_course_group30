@@ -47,28 +47,3 @@ HW_1.The second part. Задание 2
 
 1) Отправить http запрос на сервер http://162.55.220.72:5005/terminal-hw-request
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
-
-#=====================Код программы (file hw1_script.sh)=====================
-
-#!/bin/bash
-
-curl 'http://162.55.220.72:5005'/terminal-hw-request
-curl 'http://162.55.220.72:5005/get_method?name=alex&age=28' or curl 'http://162.55.220.72:5005'/get_method?name=alex\&age=28 
-mkdir HW1
-cd HW1
-mkdir 1 2 3
-cd 1
-touch test_1.txt test_2.txt test_3.txt first.json second.json
-mkdir 11 12 13
-ls -la
-mv 1/test_1.txt 1/test_2.txt ./2
-
-#=====================Конец программы=====================
-
-Note: 
- ** Для того, чтобы запустить на ОС Windows, нажмите правой кнопкой мыши в любой удобной для вас папке --> затем нажмите "Git Bash Here", 
-    после чего скопируйте код весь код программы и вставьте его в Git Bash нажатием правой кнопкой мыши.
-
- ** Для linux-систем используйте: sudo chmod ugo+x hw1_script.sh  (разрешить выполнение скрипта) 
-				    sudo ./hw1_script.sh (запустить скрипт)
-
