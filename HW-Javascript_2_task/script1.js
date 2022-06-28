@@ -8,12 +8,23 @@ function expoOneToTen() {
 expoOneToTen();
 
 // Tasks 2
-function printSmiles() {
-    let j = ":)";
-    for (let i = 1; i < 6; i++) {
-        j = j + j;
-        console.log(j);
+function printSmiles1() {
+    let j = [":)"];
+    console.log(String(j));
+    for (let i = 1; i < 5; i++) {
+        j = j.concat(j[0]);
+        console.log(j.join('')); //вывод в консоль со строковым представлением массива
     }
 }
-printSmiles();
-//yourString, numberOfRows
+printSmiles1();
+
+// Tasks 2*
+function printSmiles2(yourString, numberOfRows) {
+    console.log(yourString.join());
+    for (let i = 1; i < numberOfRows; i++) {
+        yourString = yourString.concat(yourString[0]);
+        console.log(yourString.join(''));
+    }
+}
+printSmiles2([":)"], 5);
+
