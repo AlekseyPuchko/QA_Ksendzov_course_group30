@@ -27,4 +27,3 @@ function printSmiles2(yourString, numberOfRows) {
     }
 }
 printSmiles2([":)"], 5);
-
